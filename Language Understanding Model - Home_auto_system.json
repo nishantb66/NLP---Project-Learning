@@ -1,0 +1,193 @@
+{
+    "projectFileVersion": "2022-10-01-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0,
+            "normalizeCasing": false
+        },
+        "projectName": "nishant_understanding",
+        "multilingual": false,
+        "description": "Simple home automation",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "None"
+            },
+            {
+                "category": "switch_on"
+            },
+            {
+                "category": "switch_off"
+            }
+        ],
+        "entities": [
+            {
+                "category": "device",
+                "compositionSetting": "combineComponents"
+            }
+        ],
+        "utterances": [
+            {
+                "text": "switch the fan off",
+                "language": "en-us",
+                "intent": "switch_off",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 11,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "turn off the light",
+                "language": "en-us",
+                "intent": "switch_off",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 13,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "put the light off",
+                "language": "en-us",
+                "intent": "switch_off",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "put the fan off",
+                "language": "en-us",
+                "intent": "switch_off",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 8,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "switch off the fan",
+                "language": "en-us",
+                "intent": "switch_off",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 15,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "turn the light off",
+                "language": "en-us",
+                "intent": "switch_off",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 9,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "turn the fan on",
+                "language": "en-us",
+                "intent": "switch_on",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 9,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "switch on the light",
+                "language": "en-us",
+                "intent": "switch_on",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "put the light on",
+                "language": "en-us",
+                "intent": "switch_on",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "put the fan on",
+                "language": "en-us",
+                "intent": "switch_on",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 8,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "switch on the fan",
+                "language": "en-us",
+                "intent": "switch_on",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 14,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "turn the light on",
+                "language": "en-us",
+                "intent": "switch_on",
+                "entities": [
+                    {
+                        "category": "device",
+                        "offset": 9,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            }
+        ]
+    }
+}
